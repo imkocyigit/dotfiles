@@ -22,8 +22,6 @@ set ttyfast                 " Speed up scrolling in Vim
 " set spell                 " enable spell check (may need to download language package)
 " set noswapfile            " disable creating swap file
 " set backupdir=~/.cache/vim " Directory to store backup files.
-
-
 source $HOME/.config/nvim/vim-plug/plugins.vim
 "call plug#begin(“~/.vim/plugged”)
 " “ Plugin Section
@@ -41,6 +39,14 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 "
 "	 call plug#end()
 "
+ 
+"set background=light
+set background=dark
+colorscheme gruvbox
+
+set t_Co=256
+
+
 "
 "
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
