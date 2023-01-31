@@ -14,5 +14,9 @@
                            Plug 'scrooloose/NERDTree'
                                " Auto pairs for '(' '[' '{'
                                    Plug 'jiangmiao/auto-pairs'
+                                   Plug 'vimwiki/vimwiki'
+                                   Plug 'neoclide/coc.nvim',{'branch' : 'release'}
+                                   Plug 'plasticboy/vim-markdown'
+
 
                                    call plug#end()

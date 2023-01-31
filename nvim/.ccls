@@ -1,0 +1,5 @@
+#https://codevion.github.io/#!vim/coc.md
+#this file used in root of project dir
+
+clang++
+%h %cpp -std=c++17
